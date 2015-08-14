@@ -231,3 +231,85 @@ ul.education-experience__list li{
   text-align: right;
   padding-right: 10px;
 }
+
+@media only screen and (max-width : 960px) {
+  .container {
+      width: 100%;
+      margin: 0 auto;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .main-header h1 {
+    font-size: 32px;
+  }
+
+  .main-nav {
+    padding: 1px;
+  }
+
+  .main-nav ul li {
+    display: block;
+  }
+
+  .whatido__skill {
+    width: 100%;
+  }
+
+  ul.education-experience__list{
+    text-align: center;
+  }
+
+  ul.education-experience__list li{
+    margin: 0px;
+  }
+
+  .education-experience__list li img {
+    float: none;
+    width: 180px;
+    margin-right: 0;
+    margin: 10px;
+
+  }
+
+  .education-experience__list li div {
+    overflow: hidden;
+  }
+
+  .info-section {
+    padding: 10px 20px;
+  }
+
+  .photos__list li {
+    width: 100%;
+  }
+
+  .get-in-touch__list li {
+    width: 50%;
+  }
+
+  .get-in-touch__list li img {
+    width: 120px;
+  }
+
+  .box {
+    position: static;
+    text-align: left;
+  }
+
+  .box label {
+    position: static;
+    padding-right: 0px;
+  }
+
+  .contact form {
+    width: 100%;
+    margin-left: 0%;
+  }
+
+  .contact form button {
+    width: 100%;
+  }
+
+}
